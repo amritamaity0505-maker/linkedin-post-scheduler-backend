@@ -1,0 +1,32 @@
+# =============================================================================
+# Backend .gitignore — Python & Flask Services
+# =============================================================================
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & Secrets
+.env
+*.env
+
+# Testing & Code Quality
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Dynamic Logs & User Uploads
+logs/*.log
+logs/*.jsonl
+uploads/*
+!uploads/.gitkeep
